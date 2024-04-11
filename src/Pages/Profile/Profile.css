@@ -1,0 +1,23 @@
+.profile_body{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 15px;
+    border-radius: 5px;
+}
+li {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* width: 100%; */
+  }
+  
+  .profile_body li.active {
+    background-color: gray;
+  }
+  
+  .profile_body li:hover {
+    background-color: rgb(240, 233, 233);
+    border-radius: 3px;
+  }

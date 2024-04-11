@@ -1,0 +1,131 @@
+
+.sidebar_section {
+  background-color: #fff;
+  box-shadow: 0 0 15px 0 rgba(0,0,0,.05);
+  height: 100%;
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0; */
+
+  /* border: 1px solid green; */
+  color: #fff;
+  padding: 20px;
+  transition: transform 0.3s ease; /* Use a transition for smooth animation */
+  transform: translateX(-280px); /* Initially hide sidebar off the screen */
+  /* width: 250px; */
+  /* width: 0; */
+  /* position: fixed; */
+}
+
+.sidebar_section.open {
+  width: 250px;
+  transform: translateX(0);
+  transition: transform 0.3s ease, width 0.3s ease; /* Use a transition for smooth animation */
+
+   /* Show sidebar by translating it back to 0 */
+  }
+  .sidebar_section.close{
+  display: none;
+  transition: transform 0.3s ease, width 0.3s ease; /* Use a transition for smooth animation */
+
+  width: 80px;
+} 
+
+
+.Right_section{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100vh;
+}
+.sidebar_items{
+    margin-top: 10px;
+    
+
+}
+.navitems{
+    align-items: center;
+    gap: 16px;
+    /* font-family: Roboto; */
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding: 10px 30px;
+    text-decoration: none !important;
+}
+a{
+    text-decoration: none !important;
+    /* margin-left: 10px; */
+    font-size: 15px;
+    font-weight: 500;
+    color: #637381;
+}
+.accordianNav{
+    .p-accordion-header-link {
+      text-decoration: none;
+    color: #637381;
+    font-size: 15px;
+    font-weight: 500;
+      
+    }
+    .p-accordion-toggle-icon {
+      display: none;
+    }
+    .p-accordion
+      .p-accordion-header:not(.p-disabled)
+      .p-accordion-header-link:focus-visible {
+      background-color: none;
+      border: none;
+    }
+    .p-accordion .p-accordion-header .p-accordion-header-link {
+      padding: 0;
+      border: none;
+      background: none;
+    }
+    
+    .p-accordion .p-accordion-content {
+      padding: 0;
+      border: none;
+      background: none;
+    }
+}
+.top_bar_section{
+  box-shadow: 0 0 15px 0 rgba(0,0,0,.05);
+  /* border: 1px solid red; */
+  width: 100%;
+  /* position: fixed;
+  top: 0;
+  z-index: 1000; */
+  /* left: 250px;  */
+  /* right: 0; */
+  /* position: fixed; */
+ ul li{
+      list-style: none;
+  }
+  .user_profile{
+      visibility: hidden;
+      position: absolute;
+      right: 1%;
+      width: 150px
+      
+  }
+  .box :hover .user_profile{
+      display: block;
+      visibility: visible;
+
+  }
+}
+.top_bar_section2{
+  /* position: fixed;
+  top: 0;
+  left: 250px; 
+  right: 0; */
+  width: 100%;
+}
+.outlet_section{
+  /* border: 1px solid red; */
+  /* margin-left: 250px; */
+  /* overflow-y: auto; */
+  /* margin-top: 80px; */
+  /* z-index: -100; */
+  /* margin-left: 230px; */
+}

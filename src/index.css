@@ -1,0 +1,23 @@
+.pointer{
+  cursor: pointer;
+}
+.container_box{
+  padding: 25px;
+}
+.p-button{
+  border: none !important;
+  background-color: #ff9f43;
+  border-radius: 5px;
+}
+.p-card .p-card-body{
+  width: 500px;
+  /* padding: 0; */
+}
+.p-button:focus{
+  outline: none !important;
+  border: none;
+}
+.p-card .p-card-title{
+  font-weight: 600;
+  font-size: 1rem;
+}

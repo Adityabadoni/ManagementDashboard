@@ -1,0 +1,19 @@
+/* .header_section{
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.05);
+
+   ul li{
+        list-style: none;
+    }
+    .user_profile{
+        visibility: hidden;
+        position: absolute;
+        right: 1%;
+        width: 150px
+        
+    }
+    .box :hover .user_profile{
+        display: block;
+        visibility: visible;
+
+    }
+} */
